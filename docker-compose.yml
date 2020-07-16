@@ -3,7 +3,7 @@ version: '2'
 services:
 
   proxy:
-    build: ./caddy-proxy
+    build: ./caddy
     volumes:
       - "caddy_data:/usr/share/caddy"
       - "caddy_data:/data"
