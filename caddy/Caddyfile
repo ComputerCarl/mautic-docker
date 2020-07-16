@@ -1,0 +1,3 @@
+crm.upchunk.com {
+    reverse_proxy http://mautic
+}
